@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     background: #ECF2F8;
+    gap: 32px;
 }
 
 .t-id {
@@ -20,7 +21,7 @@
     height: 28px;
     flex-shrink: 0;
     border-radius: 28px;
-    border: 2px solid #A775F1;
+    border: 1px solid black;
     background: url("/images/image-daniel.jpg");
 }
 
@@ -40,6 +41,17 @@
     flex-shrink: 0;
     border-radius: 8px;
     background: #733FC8;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    justify-items: auto;
+    padding: 32px;
+}
+
+.t2 {
+    width: 327px;
+    max-height: 444px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #48556A;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
     justify-items: auto;
     padding: 32px;
@@ -74,6 +86,7 @@ h3 {
     font-weight: 600;
     line-height: normal;
     text-align: justify;
+    margin: 20px 0 0 3px;
 }
 
 h4 {
@@ -85,4 +98,5 @@ h4 {
     font-weight: 500;
     line-height: 18px; /* 138.462% */
     text-align: justify;
+    margin: 5 px auto 5px auto;
 }
